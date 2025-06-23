@@ -1,0 +1,117 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>Test Execution Report</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                .header { background-color: #f4f4f4; padding: 20px; border-radius: 5px; }
+                .summary { display: flex; justify-content: space-around; margin: 20px 0; }
+                .metric { text-align: center; padding: 10px; }
+                .pass { color: green; }
+                .fail { color: red; }
+                table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                .status-pass { background-color: #d4edda; }
+                .status-fail { background-color: #f8d7da; }
+            </style>
+        </head>
+        <body>
+            <div class="header">
+                <h1>Automated Test Suite Report</h1>
+                <p>Generated on: 2025-06-23 16:34:50</p>
+            </div>
+            
+            <div class="summary">
+                <div class="metric">
+                    <h3>Total Tests</h3>
+                    <h2>7</h2>
+                </div>
+                <div class="metric">
+                    <h3 class="pass">Passed</h3>
+                    <h2 class="pass">2</h2>
+                </div>
+                <div class="metric">
+                    <h3 class="fail">Failed</h3>
+                    <h2 class="fail">5</h2>
+                </div>
+                <div class="metric">
+                    <h3>Pass Rate</h3>
+                    <h2>28.6%</h2>
+                </div>
+            </div>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Test Name</th>
+                        <th>Status</th>
+                        <th>Execution Time (s)</th>
+                        <th>Error Message</th>
+                        <th>Timestamp</th>
+                    </tr>
+                </thead>
+                <tbody>
+        
+                    <tr class="status-fail">
+                        <td>test_required_field_name</td>
+                        <td>FAIL</td>
+                        <td>11.68</td>
+                        <td>Action failed: {'action': 'clear_field', 'selector': '#name'}</td>
+                        <td>2025-06-23T16:33:41.446890</td>
+                    </tr>
+            
+                    <tr class="status-fail">
+                        <td>test_required_field_email</td>
+                        <td>FAIL</td>
+                        <td>11.09</td>
+                        <td>Action failed: {'action': 'clear_field', 'selector': '#email'}</td>
+                        <td>2025-06-23T16:33:54.125161</td>
+                    </tr>
+            
+                    <tr class="status-fail">
+                        <td>test_required_field_message</td>
+                        <td>FAIL</td>
+                        <td>10.72</td>
+                        <td>Action failed: {'action': 'clear_field', 'selector': '#message'}</td>
+                        <td>2025-06-23T16:34:06.220103</td>
+                    </tr>
+            
+                    <tr class="status-fail">
+                        <td>test_email_validation_email</td>
+                        <td>FAIL</td>
+                        <td>10.57</td>
+                        <td>Action failed: {'action': 'input', 'selector': '#email', 'value': 'invalid-email'}</td>
+                        <td>2025-06-23T16:34:17.938260</td>
+                    </tr>
+            
+                    <tr class="status-fail">
+                        <td>test_successful_form_submission</td>
+                        <td>FAIL</td>
+                        <td>10.76</td>
+                        <td>Action failed: {'action': 'input', 'selector': '#name', 'value': 'John Doe'}</td>
+                        <td>2025-06-23T16:34:29.508128</td>
+                    </tr>
+            
+                    <tr class="status-pass">
+                        <td>test_page_load_user-page</td>
+                        <td>PASS</td>
+                        <td>2.56</td>
+                        <td></td>
+                        <td>2025-06-23T16:34:41.269419</td>
+                    </tr>
+            
+                    <tr class="status-pass">
+                        <td>test_critical_elements_user-page</td>
+                        <td>PASS</td>
+                        <td>1.95</td>
+                        <td></td>
+                        <td>2025-06-23T16:34:44.829113</td>
+                    </tr>
+            
+                </tbody>
+            </table>
+        </body>
+        </html>
+        

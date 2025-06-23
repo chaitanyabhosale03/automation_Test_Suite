@@ -1,0 +1,8 @@
+test_name,status,execution_time,error_message,screenshot_path,timestamp
+test_required_field_name,FAIL,11.67762541770935,"Action failed: {'action': 'clear_field', 'selector': '#name'}",screenshots\test_required_field_name_20250623_163352.png,2025-06-23T16:33:41.446890
+test_required_field_email,FAIL,11.09407925605774,"Action failed: {'action': 'clear_field', 'selector': '#email'}",screenshots\test_required_field_email_20250623_163405.png,2025-06-23T16:33:54.125161
+test_required_field_message,FAIL,10.71739411354065,"Action failed: {'action': 'clear_field', 'selector': '#message'}",screenshots\test_required_field_message_20250623_163416.png,2025-06-23T16:34:06.220103
+test_email_validation_email,FAIL,10.569494485855103,"Action failed: {'action': 'input', 'selector': '#email', 'value': 'invalid-email'}",screenshots\test_email_validation_email_20250623_163428.png,2025-06-23T16:34:17.938260
+test_successful_form_submission,FAIL,10.759727001190186,"Action failed: {'action': 'input', 'selector': '#name', 'value': 'John Doe'}",screenshots\test_successful_form_submission_20250623_163440.png,2025-06-23T16:34:29.508128
+test_page_load_user-page,PASS,2.559300661087036,,,2025-06-23T16:34:41.269419
+test_critical_elements_user-page,PASS,1.9508841037750244,,,2025-06-23T16:34:44.829113

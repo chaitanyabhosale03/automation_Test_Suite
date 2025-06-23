@@ -1,0 +1,320 @@
+2025-06-23 16:29:09,885 - INFO - Executing test: test_required_field_name
+2025-06-23 16:29:23,451 - ERROR - Action failed: {'action': 'clear_field', 'selector': '#name'} - Message: no such element: Unable to locate element: {"method":"css selector","selector":"#name"}
+  (Session info: chrome=137.0.7151.120); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d251cda5+78885]
+	GetHandleVerifier [0x0x7ff7d251ce00+78976]
+	(No symbol) [0x0x7ff7d22d9bca]
+	(No symbol) [0x0x7ff7d2330766]
+	(No symbol) [0x0x7ff7d2330a1c]
+	(No symbol) [0x0x7ff7d2384467]
+	(No symbol) [0x0x7ff7d2358bcf]
+	(No symbol) [0x0x7ff7d238122f]
+	(No symbol) [0x0x7ff7d2358963]
+	(No symbol) [0x0x7ff7d23216b1]
+	(No symbol) [0x0x7ff7d2322443]
+	GetHandleVerifier [0x0x7ff7d27f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d27ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d280e592+3165202]
+	GetHandleVerifier [0x0x7ff7d253730e+186766]
+	GetHandleVerifier [0x0x7ff7d253eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d25259b4+114740]
+	GetHandleVerifier [0x0x7ff7d2525b69+115177]
+	GetHandleVerifier [0x0x7ff7d250c368+10728]
+	BaseThreadInitThunk [0x0x7ffc28b9e8d7+23]
+	RtlUserThreadStart [0x0x7ffc2a6dc34c+44]
+
+2025-06-23 16:29:24,573 - INFO - Executing test: test_required_field_email
+2025-06-23 16:29:37,135 - ERROR - Action failed: {'action': 'clear_field', 'selector': '#email'} - Message: no such element: Unable to locate element: {"method":"css selector","selector":"#email"}
+  (Session info: chrome=137.0.7151.120); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d251cda5+78885]
+	GetHandleVerifier [0x0x7ff7d251ce00+78976]
+	(No symbol) [0x0x7ff7d22d9bca]
+	(No symbol) [0x0x7ff7d2330766]
+	(No symbol) [0x0x7ff7d2330a1c]
+	(No symbol) [0x0x7ff7d2384467]
+	(No symbol) [0x0x7ff7d2358bcf]
+	(No symbol) [0x0x7ff7d238122f]
+	(No symbol) [0x0x7ff7d2358963]
+	(No symbol) [0x0x7ff7d23216b1]
+	(No symbol) [0x0x7ff7d2322443]
+	GetHandleVerifier [0x0x7ff7d27f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d27ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d280e592+3165202]
+	GetHandleVerifier [0x0x7ff7d253730e+186766]
+	GetHandleVerifier [0x0x7ff7d253eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d25259b4+114740]
+	GetHandleVerifier [0x0x7ff7d2525b69+115177]
+	GetHandleVerifier [0x0x7ff7d250c368+10728]
+	BaseThreadInitThunk [0x0x7ffc28b9e8d7+23]
+	RtlUserThreadStart [0x0x7ffc2a6dc34c+44]
+
+2025-06-23 16:29:38,261 - INFO - Executing test: test_required_field_message
+2025-06-23 16:29:42,341 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000199C34E9310>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/438c5e071919d784279d8fe32f44e4d0
+2025-06-23 16:29:46,395 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000199C34E9090>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/438c5e071919d784279d8fe32f44e4d0
+2025-06-23 16:29:50,444 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000199C3423820>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/438c5e071919d784279d8fe32f44e4d0
+2025-06-23 16:30:57,007 - INFO - Executing test: test_required_field_name
+2025-06-23 16:31:18,431 - ERROR - Action failed: {'action': 'clear_field', 'selector': '#name'} - Message: no such element: Unable to locate element: {"method":"css selector","selector":"#name"}
+  (Session info: chrome=137.0.7151.120); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d251cda5+78885]
+	GetHandleVerifier [0x0x7ff7d251ce00+78976]
+	(No symbol) [0x0x7ff7d22d9bca]
+	(No symbol) [0x0x7ff7d2330766]
+	(No symbol) [0x0x7ff7d2330a1c]
+	(No symbol) [0x0x7ff7d2384467]
+	(No symbol) [0x0x7ff7d2358bcf]
+	(No symbol) [0x0x7ff7d238122f]
+	(No symbol) [0x0x7ff7d2358963]
+	(No symbol) [0x0x7ff7d23216b1]
+	(No symbol) [0x0x7ff7d2322443]
+	GetHandleVerifier [0x0x7ff7d27f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d27ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d280e592+3165202]
+	GetHandleVerifier [0x0x7ff7d253730e+186766]
+	GetHandleVerifier [0x0x7ff7d253eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d25259b4+114740]
+	GetHandleVerifier [0x0x7ff7d2525b69+115177]
+	GetHandleVerifier [0x0x7ff7d250c368+10728]
+	BaseThreadInitThunk [0x0x7ffc28b9e8d7+23]
+	RtlUserThreadStart [0x0x7ffc2a6dc34c+44]
+
+2025-06-23 16:31:19,630 - INFO - Executing test: test_required_field_email
+2025-06-23 16:31:34,490 - ERROR - Action failed: {'action': 'clear_field', 'selector': '#email'} - Message: no such element: Unable to locate element: {"method":"css selector","selector":"#email"}
+  (Session info: chrome=137.0.7151.120); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d251cda5+78885]
+	GetHandleVerifier [0x0x7ff7d251ce00+78976]
+	(No symbol) [0x0x7ff7d22d9bca]
+	(No symbol) [0x0x7ff7d2330766]
+	(No symbol) [0x0x7ff7d2330a1c]
+	(No symbol) [0x0x7ff7d2384467]
+	(No symbol) [0x0x7ff7d2358bcf]
+	(No symbol) [0x0x7ff7d238122f]
+	(No symbol) [0x0x7ff7d2358963]
+	(No symbol) [0x0x7ff7d23216b1]
+	(No symbol) [0x0x7ff7d2322443]
+	GetHandleVerifier [0x0x7ff7d27f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d27ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d280e592+3165202]
+	GetHandleVerifier [0x0x7ff7d253730e+186766]
+	GetHandleVerifier [0x0x7ff7d253eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d25259b4+114740]
+	GetHandleVerifier [0x0x7ff7d2525b69+115177]
+	GetHandleVerifier [0x0x7ff7d250c368+10728]
+	BaseThreadInitThunk [0x0x7ffc28b9e8d7+23]
+	RtlUserThreadStart [0x0x7ffc2a6dc34c+44]
+
+2025-06-23 16:31:35,676 - INFO - Executing test: test_required_field_message
+2025-06-23 16:31:50,593 - ERROR - Action failed: {'action': 'clear_field', 'selector': '#message'} - Message: no such element: Unable to locate element: {"method":"css selector","selector":"#message"}
+  (Session info: chrome=137.0.7151.120); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d251cda5+78885]
+	GetHandleVerifier [0x0x7ff7d251ce00+78976]
+	(No symbol) [0x0x7ff7d22d9bca]
+	(No symbol) [0x0x7ff7d2330766]
+	(No symbol) [0x0x7ff7d2330a1c]
+	(No symbol) [0x0x7ff7d2384467]
+	(No symbol) [0x0x7ff7d2358bcf]
+	(No symbol) [0x0x7ff7d238122f]
+	(No symbol) [0x0x7ff7d2358963]
+	(No symbol) [0x0x7ff7d23216b1]
+	(No symbol) [0x0x7ff7d2322443]
+	GetHandleVerifier [0x0x7ff7d27f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d27ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d280e592+3165202]
+	GetHandleVerifier [0x0x7ff7d253730e+186766]
+	GetHandleVerifier [0x0x7ff7d253eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d25259b4+114740]
+	GetHandleVerifier [0x0x7ff7d2525b69+115177]
+	GetHandleVerifier [0x0x7ff7d250c368+10728]
+	BaseThreadInitThunk [0x0x7ffc28b9e8d7+23]
+	RtlUserThreadStart [0x0x7ffc2a6dc34c+44]
+
+2025-06-23 16:31:51,768 - INFO - Executing test: test_email_validation_email
+2025-06-23 16:32:06,807 - ERROR - Action failed: {'action': 'input', 'selector': '#email', 'value': 'invalid-email'} - Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d251cda5+78885]
+	GetHandleVerifier [0x0x7ff7d251ce00+78976]
+	(No symbol) [0x0x7ff7d22d9bca]
+	(No symbol) [0x0x7ff7d2330766]
+	(No symbol) [0x0x7ff7d2330a1c]
+	(No symbol) [0x0x7ff7d2384467]
+	(No symbol) [0x0x7ff7d2358bcf]
+	(No symbol) [0x0x7ff7d238122f]
+	(No symbol) [0x0x7ff7d2358963]
+	(No symbol) [0x0x7ff7d23216b1]
+	(No symbol) [0x0x7ff7d2322443]
+	GetHandleVerifier [0x0x7ff7d27f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d27ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d280e592+3165202]
+	GetHandleVerifier [0x0x7ff7d253730e+186766]
+	GetHandleVerifier [0x0x7ff7d253eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d25259b4+114740]
+	GetHandleVerifier [0x0x7ff7d2525b69+115177]
+	GetHandleVerifier [0x0x7ff7d250c368+10728]
+	BaseThreadInitThunk [0x0x7ffc28b9e8d7+23]
+	RtlUserThreadStart [0x0x7ffc2a6dc34c+44]
+
+2025-06-23 16:32:07,962 - INFO - Executing test: test_successful_form_submission
+2025-06-23 16:32:22,640 - ERROR - Action failed: {'action': 'input', 'selector': '#name', 'value': 'John Doe'} - Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d251cda5+78885]
+	GetHandleVerifier [0x0x7ff7d251ce00+78976]
+	(No symbol) [0x0x7ff7d22d9bca]
+	(No symbol) [0x0x7ff7d2330766]
+	(No symbol) [0x0x7ff7d2330a1c]
+	(No symbol) [0x0x7ff7d2384467]
+	(No symbol) [0x0x7ff7d2358bcf]
+	(No symbol) [0x0x7ff7d238122f]
+	(No symbol) [0x0x7ff7d2358963]
+	(No symbol) [0x0x7ff7d23216b1]
+	(No symbol) [0x0x7ff7d2322443]
+	GetHandleVerifier [0x0x7ff7d27f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d27ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d280e592+3165202]
+	GetHandleVerifier [0x0x7ff7d253730e+186766]
+	GetHandleVerifier [0x0x7ff7d253eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d25259b4+114740]
+	GetHandleVerifier [0x0x7ff7d2525b69+115177]
+	GetHandleVerifier [0x0x7ff7d250c368+10728]
+	BaseThreadInitThunk [0x0x7ffc28b9e8d7+23]
+	RtlUserThreadStart [0x0x7ffc2a6dc34c+44]
+
+2025-06-23 16:32:23,871 - INFO - Executing test: test_page_load_user-page
+2025-06-23 16:32:31,028 - INFO - Test passed: test_page_load_user-page
+2025-06-23 16:32:32,030 - INFO - Executing test: test_critical_elements_user-page
+2025-06-23 16:32:36,766 - INFO - Test passed: test_critical_elements_user-page
+2025-06-23 16:33:41,446 - INFO - Executing test: test_required_field_name
+2025-06-23 16:33:52,959 - ERROR - Action failed: {'action': 'clear_field', 'selector': '#name'} - Message: no such element: Unable to locate element: {"method":"css selector","selector":"#name"}
+  (Session info: chrome=137.0.7151.120); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d251cda5+78885]
+	GetHandleVerifier [0x0x7ff7d251ce00+78976]
+	(No symbol) [0x0x7ff7d22d9bca]
+	(No symbol) [0x0x7ff7d2330766]
+	(No symbol) [0x0x7ff7d2330a1c]
+	(No symbol) [0x0x7ff7d2384467]
+	(No symbol) [0x0x7ff7d2358bcf]
+	(No symbol) [0x0x7ff7d238122f]
+	(No symbol) [0x0x7ff7d2358963]
+	(No symbol) [0x0x7ff7d23216b1]
+	(No symbol) [0x0x7ff7d2322443]
+	GetHandleVerifier [0x0x7ff7d27f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d27ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d280e592+3165202]
+	GetHandleVerifier [0x0x7ff7d253730e+186766]
+	GetHandleVerifier [0x0x7ff7d253eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d25259b4+114740]
+	GetHandleVerifier [0x0x7ff7d2525b69+115177]
+	GetHandleVerifier [0x0x7ff7d250c368+10728]
+	BaseThreadInitThunk [0x0x7ffc28b9e8d7+23]
+	RtlUserThreadStart [0x0x7ffc2a6dc34c+44]
+
+2025-06-23 16:33:54,125 - INFO - Executing test: test_required_field_email
+2025-06-23 16:34:05,094 - ERROR - Action failed: {'action': 'clear_field', 'selector': '#email'} - Message: no such element: Unable to locate element: {"method":"css selector","selector":"#email"}
+  (Session info: chrome=137.0.7151.120); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d251cda5+78885]
+	GetHandleVerifier [0x0x7ff7d251ce00+78976]
+	(No symbol) [0x0x7ff7d22d9bca]
+	(No symbol) [0x0x7ff7d2330766]
+	(No symbol) [0x0x7ff7d2330a1c]
+	(No symbol) [0x0x7ff7d2384467]
+	(No symbol) [0x0x7ff7d2358bcf]
+	(No symbol) [0x0x7ff7d238122f]
+	(No symbol) [0x0x7ff7d2358963]
+	(No symbol) [0x0x7ff7d23216b1]
+	(No symbol) [0x0x7ff7d2322443]
+	GetHandleVerifier [0x0x7ff7d27f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d27ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d280e592+3165202]
+	GetHandleVerifier [0x0x7ff7d253730e+186766]
+	GetHandleVerifier [0x0x7ff7d253eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d25259b4+114740]
+	GetHandleVerifier [0x0x7ff7d2525b69+115177]
+	GetHandleVerifier [0x0x7ff7d250c368+10728]
+	BaseThreadInitThunk [0x0x7ffc28b9e8d7+23]
+	RtlUserThreadStart [0x0x7ffc2a6dc34c+44]
+
+2025-06-23 16:34:06,220 - INFO - Executing test: test_required_field_message
+2025-06-23 16:34:16,833 - ERROR - Action failed: {'action': 'clear_field', 'selector': '#message'} - Message: no such element: Unable to locate element: {"method":"css selector","selector":"#message"}
+  (Session info: chrome=137.0.7151.120); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d251cda5+78885]
+	GetHandleVerifier [0x0x7ff7d251ce00+78976]
+	(No symbol) [0x0x7ff7d22d9bca]
+	(No symbol) [0x0x7ff7d2330766]
+	(No symbol) [0x0x7ff7d2330a1c]
+	(No symbol) [0x0x7ff7d2384467]
+	(No symbol) [0x0x7ff7d2358bcf]
+	(No symbol) [0x0x7ff7d238122f]
+	(No symbol) [0x0x7ff7d2358963]
+	(No symbol) [0x0x7ff7d23216b1]
+	(No symbol) [0x0x7ff7d2322443]
+	GetHandleVerifier [0x0x7ff7d27f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d27ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d280e592+3165202]
+	GetHandleVerifier [0x0x7ff7d253730e+186766]
+	GetHandleVerifier [0x0x7ff7d253eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d25259b4+114740]
+	GetHandleVerifier [0x0x7ff7d2525b69+115177]
+	GetHandleVerifier [0x0x7ff7d250c368+10728]
+	BaseThreadInitThunk [0x0x7ffc28b9e8d7+23]
+	RtlUserThreadStart [0x0x7ffc2a6dc34c+44]
+
+2025-06-23 16:34:17,938 - INFO - Executing test: test_email_validation_email
+2025-06-23 16:34:28,390 - ERROR - Action failed: {'action': 'input', 'selector': '#email', 'value': 'invalid-email'} - Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d251cda5+78885]
+	GetHandleVerifier [0x0x7ff7d251ce00+78976]
+	(No symbol) [0x0x7ff7d22d9bca]
+	(No symbol) [0x0x7ff7d2330766]
+	(No symbol) [0x0x7ff7d2330a1c]
+	(No symbol) [0x0x7ff7d2384467]
+	(No symbol) [0x0x7ff7d2358bcf]
+	(No symbol) [0x0x7ff7d238122f]
+	(No symbol) [0x0x7ff7d2358963]
+	(No symbol) [0x0x7ff7d23216b1]
+	(No symbol) [0x0x7ff7d2322443]
+	GetHandleVerifier [0x0x7ff7d27f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d27ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d280e592+3165202]
+	GetHandleVerifier [0x0x7ff7d253730e+186766]
+	GetHandleVerifier [0x0x7ff7d253eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d25259b4+114740]
+	GetHandleVerifier [0x0x7ff7d2525b69+115177]
+	GetHandleVerifier [0x0x7ff7d250c368+10728]
+	BaseThreadInitThunk [0x0x7ffc28b9e8d7+23]
+	RtlUserThreadStart [0x0x7ffc2a6dc34c+44]
+
+2025-06-23 16:34:29,508 - INFO - Executing test: test_successful_form_submission
+2025-06-23 16:34:40,162 - ERROR - Action failed: {'action': 'input', 'selector': '#name', 'value': 'John Doe'} - Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d251cda5+78885]
+	GetHandleVerifier [0x0x7ff7d251ce00+78976]
+	(No symbol) [0x0x7ff7d22d9bca]
+	(No symbol) [0x0x7ff7d2330766]
+	(No symbol) [0x0x7ff7d2330a1c]
+	(No symbol) [0x0x7ff7d2384467]
+	(No symbol) [0x0x7ff7d2358bcf]
+	(No symbol) [0x0x7ff7d238122f]
+	(No symbol) [0x0x7ff7d2358963]
+	(No symbol) [0x0x7ff7d23216b1]
+	(No symbol) [0x0x7ff7d2322443]
+	GetHandleVerifier [0x0x7ff7d27f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7d27ef33d+3037629]
+	GetHandleVerifier [0x0x7ff7d280e592+3165202]
+	GetHandleVerifier [0x0x7ff7d253730e+186766]
+	GetHandleVerifier [0x0x7ff7d253eb3f+217535]
+	GetHandleVerifier [0x0x7ff7d25259b4+114740]
+	GetHandleVerifier [0x0x7ff7d2525b69+115177]
+	GetHandleVerifier [0x0x7ff7d250c368+10728]
+	BaseThreadInitThunk [0x0x7ffc28b9e8d7+23]
+	RtlUserThreadStart [0x0x7ffc2a6dc34c+44]
+
+2025-06-23 16:34:41,269 - INFO - Executing test: test_page_load_user-page
+2025-06-23 16:34:43,828 - INFO - Test passed: test_page_load_user-page
+2025-06-23 16:34:44,829 - INFO - Executing test: test_critical_elements_user-page
+2025-06-23 16:34:46,778 - INFO - Test passed: test_critical_elements_user-page
