@@ -77,6 +77,3 @@ python web_tester.py
 - **Form tests fail**: Update the form selectors in `test.py` to match your target website.
 
 ---
-
-## License
-MIT
